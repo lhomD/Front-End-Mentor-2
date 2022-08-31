@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+    <main role="main" class="main">
+        <span class="varn">Please choose a number first!</span>
+        <div class="wrapper" id="wrapper">
+            <section role="contentinfo" class="content" id="voteCard">
+                <img id="icon" class="content_icon" src="images/icon-star.svg" alt="Star Icon" />
+                <h1 class="content_header">How did we do?</h1>
+                <p class="content_paragraph">
+                    Please let us know how we did with your support request. All
+                    feedback is appreciated to help us improve our offering!
+                </p>
+                <div class="content_numbers">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                </div>
+                <button id="submitBtn" class="content_submit">Submit</button>
+            </section>
+
+            <section role="contentinfo" class="content voted" id="votedCard">
+                <img class="voted_icon" src="images/illustration-thank-you.svg" alt="Thank You Illustration" />
+                <p class="voted_result">
+                    You selected <span id="chosenNr"></span> out of 5
+                </p>
+                <h2 class="voted_header">Thank you</h2>
+                <p class="voted_paragraph">
+                    We appreciate you taking the time to give a rating. If you ever need
+                    more support, don’t hesitate to get in touch!
+                </p>
+            </section>
+        </div>
+
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+                href="#">Your Name Here</a>.
+        </div>
+    </main>
+</body>
+
+</html>

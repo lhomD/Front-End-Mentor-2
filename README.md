@@ -4,4 +4,5 @@ Another project completed. This included some JavaScript as well. Was quite a fu
 
 Feel free to try it at [Netlify.com](https://stalwart-horse-a510c8.netlify.app/)
 
-![Design preview for the Expenses chart component coding challenge](./component.png) ![Design preview for the Expenses chart component coding challenge](./component-2.png)
+![Design preview for the Expenses chart component coding challenge](./component.png)
+![Design preview for the Expenses chart component coding challenge](./component-2.png)
